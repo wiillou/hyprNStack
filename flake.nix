@@ -2,7 +2,7 @@
   description = "Hyprland plugin for N-stack tiling layout";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-  inputs.hyprland.url = "github:hyprwm/Hyprland/v0.36.0";
+  inputs.hyprland.url = "github:hyprwm/Hyprland";
 
   outputs = { self, nixpkgs, hyprland }:
     let
